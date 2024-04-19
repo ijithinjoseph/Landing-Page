@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto";
+    flex: 1;
+  }
+  .links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .start-page {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    background-color: #1f2937;
+    flex-shrink: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-style: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+  
+  .title-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 90px;
+  }
+  .title-text {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .title-container h1 {
+    font-weight: 48px;
+    color: #f9faf8;
+    padding: 0;
+  }
+  .title-container p,
+  .links {
+    font-weight: 18px;
+    color: #e5e7eb;
+  }
+  
+  button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .title-image {
+    flex: 1;
+    max-width: 40%;
+    max-height: 100%;
+    height: auto;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 150px;
+  }
+  
+  .info {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .sub-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    flex-grow: 0;
+  }
+  
+  .text-info {
+    text-align: center;
+  }
+  .info-container h2 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .illust {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    background-color: #e5e7eb;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300px;
+    color: #1f2937;
+  }
+  
+  .quote-container .author {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .author {
+    text-align: right;
+  }
+  
+  .ad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    flex: 1;
+  }
+  
+  .ad {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 60px;
+    color: white;
+    border-radius: 7px;
+    max-width: auto;
+    gap: 200px;
+    flex-shrink: 0;
+  }
+  
+  .ad button {
+    border: 1px solid white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .ad-text {
+    flex: 1;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1f2937;
+    color: #f9faf8;
+  }
